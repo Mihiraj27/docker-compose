@@ -1,0 +1,10 @@
+version: '3'
+services:
+  webapiapp:
+    build: ./webapiapp
+    ports:
+      - "1000:1000"
+  webapp:
+    build: ./webapp
+    ports:
+      - "1200:1200"
